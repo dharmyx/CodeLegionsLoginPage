@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HNG Login/Sign Up</title>
+    </head>
+    <style>
+        #bgBox {
+            width: 1440px;
+            height: 1024px;
+            background-image: url(background.png)
+        } 
+
+        .box1 {
+            position: absolute;
+            width: 450px;
+            height: 470px;
+            left: 120px;
+            top: 162px;
+            background-color: #5b8fde;
+            border-radius: 80px;
+
+        } 
+
+         .box2 {
+            position: absolute;
+            width: 450px;
+            height: 470px;
+            left: 425px;
+            top: 162px;
+            background-color: #ffffff;
+            border-radius: 80px;
+        } 
+
+        .elipse {
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            left: 350px;
+            top: 325px;
+            background: #5b8fde;
+            border: 40px solid #ffffff;
+            border-radius: 160px;
+            box-sizing: border-box;
+        } 
+
+        img {
+            position: relative;
+            width: 1440px;
+            height: 1024px;
+            backdrop-filter: blur(10px);
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 50%;
+            padding: 8px 5px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid;
+        }
+
+        input[type=submit] {
+            background-color: #5b8fde;
+            color: white;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 20px;
+            margin-left: 45px;
+        }
+    </style>
+
+    <body>
+        <div id="bgBox">
+           <img src="/Users/apple/Desktop/Projects/HNG-Login-SignUp-page/Desktop12.png" />
+            <div class="box1"></div>
+            <div class="box2">
+                       <form action="/action_page.php" style="position:relative; top:60px; left:120px">
+                           <p><h2 style="color:#5b8fde; margin-left:45px">Sign Up</h2></p>
+                            <input type="text" placeholder="Full Name"/>
+                            <p><input type="text" placeholder="Username"/></p>
+                            <p><input type="text" placeholder="Email"/></p>
+                            <p><input type="password" placeholder="Enter Password"/></p>
+                            <p><input type="password" placeholder="Confirm Password"/></p>
+                            <input type="checkbox">I agree to the Terms Of User</input>
+                            <br/> 
+                            <br/>
+                            <input type="submit" value="SIGN UP"/>
+                        </form> 
+            </div>
+            <div class="elipse"></div>
+        </div>
+
+    </body>
+
+</html>
